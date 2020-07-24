@@ -1,0 +1,60 @@
+:root {
+
+    --primary-font: 'Gill Sans', 'Gill Sans MT';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--primary-font);
+}
+
+.title {
+    text-align: center;  
+}
+
+.wrapper {
+    width: 80%; 
+    max-width: 900px;   
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.entry-form {
+    width: 80%;
+    max-width: 900px;
+}
+
+.entry-textbox {
+    width: 80%;
+    max-width: 800px;
+    min-height: 20vh;
+    padding: .5em 1em;
+    resize: none;
+    border: 0;
+    border-radius: 10px;
+    background-color: #FFA62B;
+    margin-bottom: 2em;
+    
+}
+
+.entry-textbox:focus {
+    outline: none;
+}
+
+.button {
+    padding: .75em .25em;
+    width: 25%;
+    align-self: flex-end;
+    border-radius: 5px;
+    border: unset;
+    background-color: #FFA62B;
+}
