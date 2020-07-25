@@ -29,14 +29,15 @@ body {
 }
 
 .entry-form {
-    width: 80%;
+    width: 100%;
     max-width: 900px;
+    margin-bottom: 2em;
 }
 
 .entry-textbox {
-    width: 80%;
+    width: 100%;
     max-width: 800px;
-    min-height: 20vh;
+    min-height: 35vh;
     padding: .5em 1em;
     resize: none;
     border: 0;
@@ -57,4 +58,28 @@ body {
     border-radius: 5px;
     border: unset;
     background-color: #FFA62B;
+}
+
+#entries-section {
+    font-family: cursive;
+    background: #16697A;
+    color: #EDE7E3;
+    height: 35vh;
+    overflow-y: scroll;
+    border-radius: 4px;
+    padding: 1em 2em;
+}
+
+.single-entry {   
+    padding-bottom: .75em;
+    line-height: 1.7;
+}
+
+.single-entry > p {
+    padding-bottom: 1em;
+    border-bottom: 1px solid white;
+}
+
+.display-btn {
+    font-family: cursive;
 }
